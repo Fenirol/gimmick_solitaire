@@ -11,8 +11,13 @@ config_version=5
 [application]
 
 config/name="Gimmick Solitaire"
+run/main_scene="uid://cikyfcm5bjp7c"
 config/features=PackedStringArray("4.7", "GL Compatibility")
 config/icon="res://icon.svg"
+
+[autoload]
+
+Global="*uid://b5ikeyjei3egv"
 
 [display]
 
