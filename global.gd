@@ -23,6 +23,7 @@ enum Rank {
 	JOKER = -1
 }
 enum Colors { BLACK, RED }
+enum Difficulty { EASY, NORMAL, HARD }
 
 const SUIT_COLORS = {
 	Suit.SPADES: Colors.BLACK,
